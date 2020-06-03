@@ -16,3 +16,8 @@ const tipList = () => {
     tipArticleElement.innerHTML += tipHTML;
   }
 };
+
+const tipList = () => {
+  // Invoke all functions here
+  tipList();
+};

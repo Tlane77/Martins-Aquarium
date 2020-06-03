@@ -17,3 +17,8 @@ const locationList = () => {
         locationArticleElement.innerHTML += locationHTML
     }
 }
+const locationList = () => {
+  // Invoke all functions here
+  locationList();
+  
+};

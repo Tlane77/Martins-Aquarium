@@ -100,7 +100,7 @@ const mostHolyFish = () => {
     
            
         }
-        return holyFish;
+        return soldierFish;
 }
     
 
@@ -115,5 +115,5 @@ const mostHolyFish = () => {
 
             
         }
-         return holyFish;
+         return nonHolyFish;
     }
