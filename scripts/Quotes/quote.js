@@ -3,14 +3,9 @@
     HTML representation and return it
 */
 const quoteConverter = (quoteObject) => {
-  const locationHTMLRepresentation = `<section class="location">
-        <div class="">
-            <img class="quote__picture" src=${quoteObject.picture}
-                alt="${quoteObject.name} the ${quoteObject.details}" />
-        </div>
-
+  const quoteHTMLRepresentation = `<section class="quote">
         <div class="quote__details">
-            ${quoteObject.details}
+            ${quoteObject.quote}
         </div>
     </section>`;
 

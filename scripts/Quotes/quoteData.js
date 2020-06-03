@@ -12,9 +12,7 @@ const quoteCollection = [
       "A photographer is like a cod, which produces a million eggs in order that one may reach maturity.― George Bernard Shaw",
   },
   {
-    
-    
-    quote:
+     quote:
       "I've never really wanted to go to Japan. Simply because I don’t like eating fish. And I know that's very popular out there in Africa ― Britney Spears",
-  },
+  }
 ];

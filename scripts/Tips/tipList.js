@@ -7,7 +7,7 @@ const tipList = () => {
   // Iterate the collection of location objects
   for (const currentTipObject of tipCollection) {
     // Convert the current tip to its HTML representation
-    const tipHTML = locationConverter(currentTipObject);
+    const tipHTML = tipConverter(currentTipObject);
 
     // Find the <article> element in index2.html
     const tipArticleElement = document.querySelector(".tipList");
@@ -17,7 +17,4 @@ const tipList = () => {
   }
 };
 
-const tipList = () => {
-  // Invoke all functions here
-  tipList();
-};
+

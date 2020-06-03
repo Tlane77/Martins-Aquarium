@@ -26,4 +26,3 @@ const locationCollection = [
 
 ]
 
-return locationCollection;

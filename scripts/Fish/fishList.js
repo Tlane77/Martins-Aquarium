@@ -46,7 +46,7 @@ const showRegularFish = () => {
 }
 const fishList = () => {
   // Invoke all three functions here
-  showHolyFish();
-  showSoldiers();
-  showRegularFish();
+  showHolyFish()
+  showSoldiers()
+  showRegularFish()
 };

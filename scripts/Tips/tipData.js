@@ -25,4 +25,3 @@ const tipCollection = [
   
 ]
 
-return tipCollection;
