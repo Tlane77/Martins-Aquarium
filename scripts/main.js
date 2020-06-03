@@ -1,3 +1,4 @@
-fishList(fishCollection)
+fishList()
 locationList(locationCollection)
 tipList(tipCollection)
+
