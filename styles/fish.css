@@ -1,0 +1,25 @@
+.fishList {
+    background-color: lavender;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.fish {
+    background-color: lightcoral;
+    margin-bottom: 1.25rem;
+}
+
+.header--fish {
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+}
+
+
+.fish__picture {
+    max-width: 15rem;
+    max-height: 15rem;
+}

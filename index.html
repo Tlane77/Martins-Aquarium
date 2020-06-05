@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Martin's Aquarium</title>
+    <link rel="stylesheet"
+          href="styles/main.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="banner">
+            <div class="banner__logo"><img class="logoImg"
+                     src="./Images/martin-logo.png"
+                     alt="Martin's Aquarium logo" /></div>
+            <div class="banner__title">Martin's Aquarium</div>
+        </div>
+        <section class="customization">
+            <select class="typeChoice">
+                <option value="all">Show All Fish</option>
+                <option value="holy">Holy Fish</option>
+                <option value="soldier">Soldier Fish</option>
+                <option value="regular">Regular Fish</option>
+
+            </select>
+
+            <button class="toggleTip">Toggle Tips</button>
+            <button class="toggleFish">Fish</button>
+            <button class="toggleLocation">Locations</button>
+            <button class="toggleQuotes">Quotes</button>
+        </section>
+
+        <div class="underTheBanner">
+
+            <div class="underTheBanner__left">
+                <h1 class="header header--quotes">Quotes</h1>
+                <article class="quoteList">
+
+                    <!-- <section class="quote">“I am not eccentric. It's just that I am more alive than most people. I am an unpopular electric eel set in a pond of catfish.”
+                        ― Edith Sitwell</section>
+                    <section class="quote">“Now I can look at you in peace; I don't eat you any more.”
+                        ― Franz Kafka</section>
+                    <section class="quote">“A photographer is like a cod, which produces a million eggs in order that one may reach maturity.”
+                        ― George Bernard Shaw</section>
+                    <section class="quote">“I've never really wanted to go to Japan. Simply because I don’t like eating fish. And I know that's very popular out there in Africa.”
+                        ― Britney Spears</section> -->
+                </article>
+
+                <h1 class="header header--fish">My Fishies</h1>
+                <article class="fishList">
+
+                </article>
+
+                <h1 class="header header--locations">Harvesting Locations</h1>
+                <article class="locationList">
+                    <section class="location">
+                        <div class="">
+                            <img class="location__picture"
+                                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fw1oGyZL0qjM%2Fhqdefault.jpg&f=1&nofb=1"
+                                 alt="Southern Ocean" />
+                        </div>
+                        <div class="location__details">
+                            Together the snailfish, eelpouts and notothenioids (which includes cod icefish and several
+                            other families) account for almost ​9⁄10 of the more than 320 described fish species of the
+                            Southern Ocean.
+                        </div>
+                    </section>
+                    <section class="location">
+                        <div class="">
+                            <img class="location__picture"
+                                 src="https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg"
+                                 alt="Beautiful picture of Caribbean Sea" />
+                        </div>
+                        <div class="location__details">
+                            In the Caribbean Sea there are around 1,000 documented species of fish, including sharks
+                            (bull shark, tiger shark, silky shark and Caribbean reef shark), flying fish, giant oceanic
+                            manta ray, angel fish, spotfin butterflyfish, parrotfish, Atlantic Goliath grouper, tarpon
+                            and moray eels.
+                        </div>
+                    </section>
+                    <section class="location">
+                        <div class="">
+                            <img class="location__picture"
+                                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.desktopbackground.org%2Ft%2F2011%2F02%2F01%2F150819_two-fish-underwater-wallpapers_1920x1080_h.jpg&f=1&nofb=1"
+                                 alt="Bay of Bengal" />
+                        </div>
+                        <div class="location__details">
+                            The Bay of Bengal is full of biological diversity, diverging amongst coral reefs, estuaries,
+                            fish spawning and nursery areas, and mangroves. The Bay of Bengal is one of the World's 64
+                            largest marine ecosystems.
+                        </div>
+                    </section>
+                    <section class="location">
+                        <div class="">
+                            <img class="location__picture"
+                                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.unilad.co.uk%2Fwp-content%2Fuploads%2F2018%2F07%2Focean.jpg&f=1&nofb=1"
+                                 alt="Pacific Ocean" />
+                        </div>
+                        <div class="location__details">
+                            Due to its enormous size, the Pacific Ocean is home to a wide array of marine creatures,
+                            some of which are found nowhere else on earth.
+                        </div>
+                    </section>
+                </article>
+            </div>
+
+            <div class="underTheBanner__right">
+                <article class="tipList">
+                    <h1 class="header header--tips">Martin's Tips</h1>
+                    <section class="tip">Buy algae pads at a pet shop instead of the housewares department of a regular
+                        store. Although they may look the same, the housewares pads can have soap or chemical residue.
+                        That residue doesn't matter if you are cleaning your kitchen sink, but it can be lethal to your
+                        fish.<br>For stubborn residue on the glass, use a razor blade to scrape it off. Take care not to
+                        cut yourself. If your aquarium is acrylic, use a plastic razor blade, as standard razors will
+                        scratch the acrylic.</section>
+                    <section class="tip">In Ronald Shimek's Aquarium Frontier's online magazine article "What are
+                        Natural Reef Salinities and Temperatures...Really...and Does It Matter?" he makes the point that
+                        the corals you have in your tank come from many different ocean water temperatures ranging from
+                        72 degrees up to about 92 degrees. He states that "Maintaining a tank in the upper 70 degrees
+                        Fahrenheit (24 to 26 degrees Celsius) range will stress any reef inhabitants from the central
+                        Indo-Pacific, as it is too cold. And, because this is near the upper limits for subtropical
+                        organisms, it will stress them as well. It would be better for all concerned if aquarists
+                        concentrated their efforts on maintaining separate systems for organisms from geographically
+                        disparate areas." Knowing what kind of animals you have and from where they come plays an
+                        important part in deciding what is the best tank temperature for your Saltwater aquarium.
+                    </section>
+                    <section class="tip">1. When choosing your dive school, check to see if you’ll be diving in warm or
+                        cold water, what sea life the area is known for, and how much the accreditation costs. Getting
+                        your open water certificate takes three full days of training or longer, so you’ll want to be
+                        somewhere both comfortable and memorable.<br>2. Safety should be your number one concern when
+                        choosing a dive school. Before you go, check
+                        out online reviews to see if other divers write about consistent issues like disorganization,
+                        missed safety briefings, or faulty equipment. A safe dive school maintains a low student to
+                        instructor ratio, never leaves equipment on the floor, and communicates clearly with its
+                        students.<br>
+
+                        3. To maximize your confidence and comfort underwater, practice swimming and yoga for a few
+                        months leading up to your dive course. Yoga helps you learn to focus on your breathing, one of
+                        the most important elements of scuba diving. Swimming helps you maintain control of your body
+                        underwater.<br>
+
+                        4. Learn about different scuba diving agencies to find out which one is best for you. The two
+                        biggest are PADI and SSI. Here’s a pro and con resource from Scuba World on PADI vs. SSI.<br>
+                    </section>
+                    <section class="tip">When harvesting fish, you have to decompress them before fish can be surfaced
+                        to the top of the water, if they are collected from deep water. Therefore, if you do not
+                        properly decompress a fish can result in death or permanent injury. Properly decompressing a
+                        fish is simple, it just takes patience. Much of the information provided here pertains to how to
+                        put fish into the catch bucket without it escaping or getting damaged.</section>
+                </article>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="scripts/Fish/fish.js"></script>
+    <script src="scripts/Fish/fishList.js"></script>
+    <script src="scripts/Fish/fishData.js"></script>
+    <script src="scripts/Location/location.js"></script>
+    <script src="scripts/Location/locationList.js"></script>
+    <script src="scripts/Location/locationData.js"></script>
+    <script src="scripts/Tips/tip.js"></script>
+    <script src="scripts/Tips/tipList.js"></script>
+    <script src="scripts/Tips/tipData.js"></script>
+    <script src="scripts/Quotes/quote.js"></script>
+    <script src="scripts/Quotes/quoteList.js"></script>
+    <script src="scripts/Quotes/quoteData.js"></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+
+</html>
