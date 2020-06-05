@@ -1,5 +1,3 @@
-
-
 getFishData().then(
     () => {
         console.log("inside", fishCollection)

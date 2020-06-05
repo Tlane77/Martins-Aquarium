@@ -1,19 +1,21 @@
 /*
-Responsible for generating a list of locationHTML
+Responsible for generating a list of fish HTML
 representations, and putting in the browser
 */
+const locationVisibilityButton = document.querySelector(".toggleLocation");
+
+locationVisibilityButton.addEventListener("click",(clickEvent) => {
+  // const locationListArticle = document.querySelector(".locationList")
+  // locationListArticle.classList.toggle("hidden")
+
+  document.querySelector(".locationList").classList.toggle("hidden");
+});
 
 const locationList = () => {
-  // Iterate the collection of location objects
-  for (const currentLocationObject of locationCollection) {
+  for (const location of locationCollection) {
+    const html = locationConverter(location);
 
-    // Convert the current location to its HTML representation
-    const locationHTML = locationConverter(currentLocationObject)
-
-    // Find the <article> element in index2.html
-    const locationArticleElement = document.querySelector(".locationList")
-
-    // Put the location HTML representation inside the <article> element
-    locationArticleElement.innerHTML += locationHTML
+    const locationArticleElement = document.querySelector(".locationList");
+    locationArticleElement.innerHTML += html;
   }
-}
+};
